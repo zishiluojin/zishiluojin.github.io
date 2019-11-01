@@ -1796,6 +1796,10 @@ pre .javascript .function {
     -moz-transform: rotateZ(-720deg);
   }
 }
+.sidebar-inner.affix-bottom {
+/* hack */
+  top: auto !important;
+}
 @-moz-keyframes play {
   0% {
     -webkit-transform: rotateZ(0deg);
@@ -1928,7 +1932,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9417fb;
+  background: #a724a1;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2049,6 +2053,8 @@ pre .javascript .function {
   color: #fc6423;
 }
 .footer {
+  margin-top: 80px;
+  padding: 10px 0;
   font-size: 14px;
   color: #999;
 }
